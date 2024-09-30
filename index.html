@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wedding Invitation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>You're Invited!</h1>
+        <button id="showEventsBtn">See Events</button>
+
+        <div id="events" class="events-container" style="display:none;">
+            <div class="event" id="mehndi">
+                <h2>Mehndi Function</h2>
+                <p>26th October 2024</p>
+            </div>
+            <div class="event" id="barat">
+                <h2>Barat Function</h2>
+                <p>27th October 2024</p>
+            </div>
+            <div class="event" id="walima">
+                <h2>Walima Function</h2>
+                <p>28th October 2024</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Event Cards (hidden by default) -->
+    <div id="mehndiCard" class="card" style="display:none;">
+        <h2>Mehndi Function</h2>
+        <p>Date: 26th October 2024</p>
+        <p>Venue: XYZ Banquet Hall</p>
+        <p>Time: 6:00 PM Onwards</p>
+        <button class="closeCard">Close</button>
+    </div>
+
+    <div id="baratCard" class="card" style="display:none;">
+        <h2>Barat Function</h2>
+        <p>Date: 27th October 2024</p>
+        <p>Venue: ABC Lawn</p>
+        <p>Time: 7:00 PM Onwards</p>
+        <button class="closeCard">Close</button>
+    </div>
+
+    <div id="walimaCard" class="card" style="display:none;">
+        <h2>Walima Function</h2>
+        <p>Date: 28th October 2024</p>
+        <p>Venue: DEF Resort</p>
+        <p>Time: 8:00 PM Onwards</p>
+        <button class="closeCard">Close</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
